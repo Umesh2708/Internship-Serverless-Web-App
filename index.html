@@ -218,8 +218,8 @@
             responseArea.classList.remove('show', 'error');
 
             try {
-                const response = await fetch('https://u9o6vuiuy8.execute-api.us-east-1.amazonaws.com/submit', {
-                    method: 'POST',
+                const response = await fetch('PASTE-YOUR-API-LINK-WITH-RESOURCE-PATH', {
+                    method: 'WRITE-NAME-OF-YOUR-SELECTED-METHOD',
                     headers: {
                         'Content-Type': 'application/json'
                     },
@@ -242,7 +242,7 @@
                 responseArea.classList.add('show', 'error');
             } finally {
                 // Reset button state
-                submitBtn.textContent = 'Submit';
+                submitBtn.textContent = 'YOUR-RESOURCE-NAME';
                 submitBtn.disabled = false;
             }
         });
@@ -262,3 +262,4 @@
     </script>
 </body>
 </html>
+
