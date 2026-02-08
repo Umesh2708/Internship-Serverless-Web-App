@@ -3,7 +3,7 @@ import boto3
 import uuid
 
 dynamodb = boto3.resource('dynamodb')
-table = dynamodb.Table('Internship-Serverless-Table')
+table = dynamodb.Table('PASTE-NAME-OF-YOUR-DynamoDB-TABLE-NAME')
 
 def lambda_handler(event, context):
     
