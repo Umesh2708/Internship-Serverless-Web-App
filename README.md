@@ -97,5 +97,5 @@ The implementation reflects real-world cloud deployment practices used in indust
 
 ## 👤 Author
 Umesh Saini  
-Cloud Computing Internship  
+AWS Project
 2026
