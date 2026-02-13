@@ -130,7 +130,7 @@ For code refer to Above `Lambda` Folder in the Repository.
 
 ---
 
-### ✅ Step 9: Delete AWS Resources (To Avoid Charges)
+### ✅ Step 8: Delete AWS Resources (To Avoid Charges)
 
 If you created this project only for learning/demo purpose, it is recommended to delete resources after testing to avoid unnecessary charges.
 
